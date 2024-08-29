@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio3 {
 	
+	
 //	Elabore um programa que receba o nome do usuário e o seu gênero da seguinte
 //	forma:
 //		▪ [ M ] para masculino

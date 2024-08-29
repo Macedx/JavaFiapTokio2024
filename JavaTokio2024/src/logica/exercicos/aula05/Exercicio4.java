@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exercicio4 {
 
 	public static void main(String[] args) {
+		
 	
 //		▪ Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir calcule e
 //		informe a média ponderada do aluno.

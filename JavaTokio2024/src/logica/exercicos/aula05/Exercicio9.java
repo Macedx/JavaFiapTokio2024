@@ -3,6 +3,7 @@ package logica.exercicos.aula05;
 public class Exercicio9 {
 
 	public static void main(String[] args) {
+		
 //		▪ Elabore um programa no qual o usuário entre com um número.
 //		▪ Após isso seu script deverá exibir o número digitado e sua respectiva separação em
 //		centena, dezena e unidade.

@@ -10,6 +10,7 @@ public class Exercicio6 {
 //		peça2, o número de peças2 e o valor unitário de cada peça2. Após, calcule e mostre o
 //		valor a ser pago.
 		
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Digite o nome da peca 1: ");

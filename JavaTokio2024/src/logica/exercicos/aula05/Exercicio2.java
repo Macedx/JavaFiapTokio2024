@@ -4,6 +4,7 @@ public class Exercicio2 {
 
 	public static void main(String[] args) {
 		
+		
 		//Declaração de int, float e double atribuindo valores
 		int numInt = 1;
 		float numFloat = 1.555f;
