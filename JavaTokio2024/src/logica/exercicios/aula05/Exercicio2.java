@@ -1,4 +1,4 @@
-package logica.exercicos.aula05;
+package logica.exercicios.aula05;
 
 public class Exercicio2 {
 
