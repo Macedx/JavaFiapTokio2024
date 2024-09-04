@@ -15,7 +15,7 @@ public class Exercicio5 {
 		System.out.println("---------------------------\n"
 				+ "Calculadora\n"
 				+ "--------------------------- \n"
-				+ "Operações \n"
+				+ "Operacoes \n"
 				+ "+: Soma; \n"
 				+ "-: Subtracao; \n"
 				+ "*: Multiplicacao; \n"
@@ -57,6 +57,7 @@ public class Exercicio5 {
 			break;
 			
 	}
-		
+		scanner.close();
 	}
+	
 }
