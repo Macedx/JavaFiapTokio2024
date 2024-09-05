@@ -14,7 +14,13 @@ public class Exercicio7 {
 
 		int a = 5, b = 7, c = 4, d = 8;
 		
-		System.out.println();
+		boolean resultadoA = (a <= b) && (b < d);
+		boolean resultadoB = (a == b) ||(c != b);
+		boolean resultadoC = (d > a) && (c >= b);
+		boolean resultadoD = (a <= b) || (c <= d);
+		boolean resultadoE = ((b > c) || (c < a)) && (d <= b);
+		
+		System.out.printf("%b \n%b \n%b \n%b \n%b", resultadoA, resultadoB, resultadoC, resultadoC, resultadoD, resultadoE);
 		
 		}
 	}
