@@ -1,5 +1,7 @@
 package logica.exercicios.aula07;
 
+import java.util.Scanner;
+
 public class Exercicio1 {
 
 	public static void main(String[] args) {
@@ -9,8 +11,20 @@ public class Exercicio1 {
 //		exibir a mensagem novamente.
 //		▪ Se sim, exiba novamente. Senão, saia do loop e exiba a mensagem “Fim”.
 
+		String resposta;	
+		Scanner scanner = new Scanner(System.in);
 		
 		
+		do {
+			System.out.println("Ola, Mundo");
+			System.out.println("Voce quer exibir a mensagem novamente? (Responda somente com sim ou nao)");
+			resposta = scanner.nextLine();
+		}
+		
+		while (resposta.equals("sim"));
+			System.out.println("FIM");
+			scanner.close();
+		}
 	}
+		
 
-}

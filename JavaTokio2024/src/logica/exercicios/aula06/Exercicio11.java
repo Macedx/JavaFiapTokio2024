@@ -38,7 +38,7 @@ public class Exercicio11 {
 //		Imposto: R$17.500,00
 //		valorFinal: R$357.500,00
 		
-		System.out.println("Orige/Estado da carga (1-5)");
+		System.out.println("Origem/Estado da carga (1-5)");
 		int estado = scanner.nextInt();
 		
 		System.out.println("Digite o peso do caminhao em toneladas: ");
@@ -96,7 +96,7 @@ public class Exercicio11 {
 		// CALCULO DO VALOR FINAL precoCarga + imposto
 		double valorFinal = precoCarga + imposto;
 		
-		System.out.println("Preso da carga em KG: " + pesoKg );
+		System.out.println("Peso da carga em KG: " + pesoKg );
 		System.out.println("Preco da carga: " + precoCarga);
 		System.out.println("Valor do imposto: " + imposto );
 		System.out.println("Valor final: " + valorFinal );
