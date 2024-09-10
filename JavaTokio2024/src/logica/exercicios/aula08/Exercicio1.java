@@ -19,14 +19,17 @@ public class Exercicio1 {
 		scanner.close();
 		Calendar c = Calendar.getInstance();
 		
-		if (c.HOUR <= 6) {
+		int hora = c.get(Calendar.HOUR_OF_DAY);
+		System.out.println(hora);
+		
+		if (hora>= 6 && hora <12) {
 			System.out.printf("Bom dia, " + nome);
-		}else if (c.HOUR >= 12) {
+		}else if (hora >= 12 && hora <18) {
 				System.out.printf("Boa tarde, " + nome);
-			}else if (c.HOUR >=18) {
+			}else  {
 				System.out.printf("Boa noite, " +nome);
 			}
-		
+		scanner.close();
 	}
 
 }

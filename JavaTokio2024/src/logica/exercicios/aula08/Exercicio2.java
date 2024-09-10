@@ -10,7 +10,7 @@ public class Exercicio2 {
 		
 		Calendar c = Calendar.getInstance();
 		if( c.get(Calendar.DAY_OF_WEEK) == 3) {
-			System.out.println("Terá terca-feira de rua");
+			System.out.println("Tera feira de rua!");
 		}
 
 	}

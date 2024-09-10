@@ -10,11 +10,13 @@ public class Exercicio6 {
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Digite um valor: ");
-		int i = scanner.nextInt();
+		int x = scanner.nextInt();
 	
-		while (i%2==0) {
+		for (int i=2; i<=x; i+=2) {
 			System.out.println(i);
 		}
+		scanner.close();
 	}
+
 
 }

@@ -12,17 +12,25 @@ public class Exercicio5 {
 
 		
 		int maior;
-		int i= 0;
-		
+		int i= 0, num2 =0;
 		while ( i <= 12) {
 			
 			System.out.println("Digite um valor: ");
-			int valor = scanner.nextInt();
+			int num1 = scanner.nextInt();
 			i++;
 			
-			scanner.close();
+			if (num1 > num2) {
+				num2 = num1;
+			}
+			
+			
+			
 		}
+		System.out.println("O maior numero é o " + num2);
+		scanner.close();
 	}
+}
+
 		
 
 		
