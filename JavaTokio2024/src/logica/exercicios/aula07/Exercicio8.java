@@ -20,6 +20,10 @@ public class Exercicio8 {
 		
 		System.out.println("Digite um numero inteiro positivo: ");
 		int num = scanner.nextInt();
+		
+		if (num > 00) {
+			for (int soma )
+		}
 	}
 
 }
