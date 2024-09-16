@@ -17,13 +17,30 @@ public class Exercicio8 {
 //		▪ A soma de 1 até 10 é: 55
 		
 		Scanner scanner = new Scanner(System.in);
-		
+		int num=0;
+		do {
 		System.out.println("Digite um numero inteiro positivo: ");
-		int num = scanner.nextInt();
-		
-		if (num > 00) {
-			for (int soma )
+		while (!scanner.hasNextInt()) {
+			System.out.println("ERRO! Digite apenas numeros POSITIVOS");
+			scanner.next();
+			
+			scanner.close();
 		}
+		
+		 num = scanner.nextInt();
+		}
+		while (num <= 0);
+		
+		
+		
+		
+			int soma = 0;
+			for (int i = 1; i <= num; i++ ) {
+				soma += i;
+			}
+			System.out.println(soma);
+			
+		
 	}
-
 }
+
